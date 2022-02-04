@@ -1,0 +1,137 @@
+/* generic body styles */
+
+body {
+  font-size: 24px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(245, 9, 233);
+  /* border: 2px solid red; */
+  height: 100vh;
+  background-image: linear-gradient(rgb(245, 9, 233), rgb(4, 0, 255));
+}
+
+/* Typography */
+h1,
+h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgb(4, 0, 255);
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* Buttons */
+button {
+  font-size: 18px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(236, 31, 226, 0.973),
+    rgb(4, 0, 255)
+  );
+}
+
+/* Layout, Spacing */
+.container {
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+h1 {
+  border-bottom: 4px solid rgba(236, 31, 226, 0.973);
+  /* margin: 20px 0; */
+}
+
+.player-box {
+  display: flex;
+  /* border: 2px solid green; */
+  /* width: 100%; */
+  justify-content: space-around;
+}
+
+#player1,
+#player2 {
+  border: rgb(4, 0, 255) 4px solid;
+  border-radius: 15px;
+  padding: 30px 60px;
+  height: 300px;
+  width: 200px;
+}
+
+#player1 {
+  box-shadow: -0.2em -0.2em 0.4em 0 rgba(236, 31, 226, 0.973),
+    0.2em 0.2em 0.4em rgba(236, 31, 226, 0.973);
+}
+
+.actions {
+  /* border: 2px solid red; */
+  padding: 20px 0;
+  display: block;
+}
+
+#dice {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* Buttons */
+
+button {
+  padding: 10px 30px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 2.5px;
+  cursor: pointer;
+  /* background-image: linear-gradient(rgb(245, 9, 233)); */
+}
+
+#rollBtn {
+  display: block;
+  margin-top: 20px;
+}
+
+#doubleOrNothingBtn {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#resetBtn {
+  display: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(4, 0, 255),
+    rgba(236, 31, 226, 0.973)
+  );
+}
+
+/* carousel */
+.carousel-item {
+  display: none;
+  /* border: 2px solid green; */
+  padding-bottom: 0;
+}
+
+.carousel-item-visible {
+  display: block;
+}
+
+#dice {
+  height: 120px;
+}
